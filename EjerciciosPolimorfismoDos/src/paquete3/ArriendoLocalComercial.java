@@ -16,7 +16,7 @@ public class ArriendoLocalComercial extends Arriendo {
     protected double valorAdicionalFijo;
 
     public ArriendoLocalComercial(String nombre, double cuotaB) {
-        super(nombre, cuotaB);
+        super(nombre, cuotaB); 
     }
 
     @Override

@@ -44,10 +44,10 @@ public class Ejecutor {
         listaArriendos.add(arriendoComercial);
         listaArriendos.add(arriendoSesiones);
         
-        for (int i = 0; i < listaArriendos.size(); i++) {
+        for (int i = 0; i < listaArriendos.size(); i++) {// listaArriendo.size es la cantidad de listas add
             listaArriendos.get(i).establecerArriendoMensual(); // se llama al 
                                                             // métodos abstracto
-            System.out.println(listaArriendos.get(i));
+            System.out.println(listaArriendos.get(i));// es cualquiera de esos objetos llamamos al tostring
             System.out.println();
         }
         

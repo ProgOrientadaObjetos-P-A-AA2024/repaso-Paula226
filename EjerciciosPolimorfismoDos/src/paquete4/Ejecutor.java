@@ -43,7 +43,7 @@ public class Ejecutor {
                 listaArriendos);
         centro.establecerTotalArriendosBaseMensual();
         centro.establecerTotalArriendosFinalMensual();
-        System.out.println(centro);
+        System.out.println(centro); // AQUI ESTOYT LLAMANDO AL METODO TOSTRING DE CENTROCOMERCIAL LLAMADO CENTRO 
     
     }
 }

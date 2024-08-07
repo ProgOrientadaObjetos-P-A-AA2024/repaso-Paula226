@@ -36,14 +36,14 @@ public class CentroComercial {
         for (int i = 0; i < obtenerArriendos().size(); i++) {
             totalArriendosFinalMensual = totalArriendosFinalMensual
                     + obtenerArriendos().get(i).obtenerArriendoMensual();
-        }
+        } // se utiliza para asignar vlores acomulables  
     }
 
     public void establecerTotalArriendosBaseMensual() {
         for (int i = 0; i < obtenerArriendos().size(); i++) {
             totalArriendosBaseMensual = totalArriendosBaseMensual
                     + obtenerArriendos().get(i).obtenerCuotaBase();
-        }
+        }//se esta obteniendo cada elemneto y se obtiene cuotabase
     }
 
     public String obtenerNombre() {
